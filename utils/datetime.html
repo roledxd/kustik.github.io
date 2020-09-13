@@ -3,6 +3,7 @@
   <title>KustikUtils|DateTime</title>
 </head>
 <body>
+  <script>
   var today = new Date();
   var strDate = 'Y-m-d-H-i-s'
     .replace('Y', today.getFullYear())
@@ -11,6 +12,6 @@
     .replace('H', today.getHours())
     .replace('i', today.getMinutes())
     .replace('s', today.getSeconds())
-  <script>document.write(strDate);</script>
+  document.write(strDate);</script>
 </body>
 </html>
