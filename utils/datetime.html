@@ -1,0 +1,16 @@
+<html>
+<head>
+  <title>KustikUtils|DateTime</title>
+</head>
+<body>
+  var today = new Date();
+  var strDate = 'Y-m-d-H-i-s'
+    .replace('Y', today.getFullYear())
+    .replace('m', today.getMonth()+1)
+    .replace('d', today.getDate());
+    .replace('H', today.getHours())
+    .replace('i', today.getMinutes())
+    .replace('s', today.getSeconds())
+  <script>document.write(strDate);</script>
+</body>
+</html>
